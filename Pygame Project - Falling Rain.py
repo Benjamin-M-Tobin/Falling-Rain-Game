@@ -7,7 +7,7 @@ WIDTH, HEIGHT = 1000, 800
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Falling Rain')
 
-BG = pygame.transform.scale(pygame.image.load('dark - 1.png'), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load('dark - 1.jpg'), (WIDTH, HEIGHT))
 
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
@@ -101,4 +101,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
